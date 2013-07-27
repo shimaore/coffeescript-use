@@ -43,4 +43,4 @@ As HTML
           
 Converter:
 
-    coffeecup -p example.html.coffee > example.html
+    coffeecup example.html.coffee && mv example.html.html example.html
